@@ -10,10 +10,10 @@ import org.slf4j.LoggerFactory;
 public class Main {
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(Main.class);
-        logger.debug("Hello world.");
+        logger.debug("Hello world. fi");
 
-        //print internal state
-        LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
-        StatusPrinter.print(lc);
+//        //print internal state
+//        LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
+//        StatusPrinter.print(lc);
     }
 }
